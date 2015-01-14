@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@android:color/transparent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/inbox_vertical_margin"
+        android:layout_marginLeft="@dimen/inbox_horizontal_margin"
+        android:layout_marginRight="@dimen/inbox_horizontal_margin"
+        android:background="@android:color/white">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/listIcon"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/list_item_vertical_margin"
+            android:paddingBottom="@dimen/list_item_vertical_margin"
+            android:src="@drawable/ic_gift" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/senderLabel"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/listIcon"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/list_vertical_padding"
+            android:paddingBottom="@dimen/list_vertical_padding"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

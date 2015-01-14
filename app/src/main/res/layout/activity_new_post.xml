@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="se.kfreiholtz.mywishlist.userinterfaces.NewPostActivity"
+    android:background="@color/wish_list_light_blue">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newPostNameField"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="@dimen/universal_text_margin"
+        android:layout_marginLeft="@dimen/universal_text_margin"
+        android:layout_marginRight="@dimen/universal_text_margin"
+        android:hint="@string/post_name_hint"
+        android:inputType="textCapSentences"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newPostLocationField"
+        android:layout_below="@+id/newPostNameField"
+        android:layout_alignStart="@+id/newPostNameField"
+        android:layout_alignEnd="@+id/newPostNameField"
+        android:layout_alignLeft="@+id/newPostNameField"
+        android:layout_alignRight="@+id/newPostNameField"
+        android:hint="@string/post_location_hint"
+        android:inputType="textCapSentences"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newPostExtraField"
+        android:layout_below="@+id/newPostLocationField"
+        android:layout_alignStart="@+id/newPostNameField"
+        android:layout_alignEnd="@+id/newPostNameField"
+        android:layout_alignLeft="@+id/newPostNameField"
+        android:layout_alignRight="@+id/newPostNameField"
+        android:hint="@string/post_extra_hint"
+        android:inputType="textCapSentences"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_picture_post"
+        android:id="@+id/pictureButton"
+        android:background="@color/wish_list_blue"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/newPostExtraField"
+        android:layout_alignStart="@+id/newPostNameField"
+        android:layout_alignEnd="@+id/newPostNameField"
+        android:layout_alignLeft="@+id/newPostNameField"
+        android:layout_alignRight="@+id/newPostNameField"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="40dp"
+        android:id="@+id/newPostImageView"
+        android:layout_below="@+id/pictureButton"
+        android:layout_alignStart="@+id/newPostNameField"
+        android:layout_alignEnd="@+id/newPostNameField"
+        android:layout_alignLeft="@+id/newPostNameField"
+        android:layout_alignRight="@+id/newPostNameField"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/content_desc_new_post_image" />
+
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="se.kfreiholtz.mywishlist.userinterfaces.LoginActivity"
+    style="@style/Background">
+
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/Title"
+        android:layout_marginTop="150dp"/>
+
+    <LinearLayout
+        android:id="@+id/editTextLayout"
+        style="@style/FieldContainer"
+        android:layout_width="400dp"
+        android:layout_centerHorizontal="true">
+
+
+        <EditText
+            android:id="@+id/usernameField"
+            android:hint="@string/username_hint"
+            style="@style/EditText" />
+        <requestFocus />
+
+        <EditText
+            android:id="@+id/passwordField"
+            android:hint="@string/password_hint"
+            android:inputType="textPassword"
+            style="@style/EditText"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:text="@string/login_button_label"
+        style="@style/Button"
+        android:layout_width="400dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register_now"
+        android:id="@+id/signUpTextButton"
+        android:layout_below="@+id/loginButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:textColor="@android:color/white"/>
+
+
+
+
+</RelativeLayout>

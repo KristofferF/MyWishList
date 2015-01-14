@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="se.kfreiholtz.mywishlist.userinterfaces.ViewPostActivity"
+    android:background="@color/wish_list_light_blue">
+
+    <TextView
+        android:id="@+id/postNameText"
+        android:textSize="25sp"
+        android:layout_marginTop="@dimen/universal_text_margin"
+        android:layout_alignParentTop="true"
+        style="@style/ViewPosts" />
+
+    <TextView
+        android:id="@+id/postLocationText"
+        android:textSize="15sp"
+        android:layout_below="@+id/postNameText"
+        style="@style/ViewPosts"/>
+
+    <TextView
+        android:id="@+id/postExtraText"
+        android:textSize="15sp"
+        android:layout_below="@+id/postLocationText"
+        style="@style/ViewPosts"/>
+
+    <CheckBox
+        android:text="@string/gift_bought"
+        android:id="@+id/postCheckBox"
+        style="@style/ViewPosts"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/postImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="40dp"
+        android:layout_below="@+id/postExtraText"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/content_desc_view_post_image" />
+
+
+
+</RelativeLayout>

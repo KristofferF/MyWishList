@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Stationary\Desktop\20150114\MyWishlist\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="C:\Users\Stationary\Desktop\20150114\MyWishlist\app\build\intermediates\pre-dexed\debug\classes-d49c55516cb9a2309ee93b9ab5f6d6384b349b46.jar" />
+    </item>
+    <item
+        jar="C:\Users\Stationary\Desktop\20150114\MyWishlist\app\build\intermediates\exploded-aar\com.android.support\support-v13\20.0.0\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e128103d5281ddd26195a7f980b36d0d005a4e56">
+        <dex dex="C:\Users\Stationary\Desktop\20150114\MyWishlist\app\build\intermediates\pre-dexed\debug\classes-1e78cca13ecf4dc5e303688aa313c99d4a8b8f8b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Stationary\Desktop\20150114\MyWishlist\app\libs\picasso-2.3.4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="3b646ddbdac8a33fc45b64564011da81d23e4635">
+        <dex dex="C:\Users\Stationary\Desktop\20150114\MyWishlist\app\build\intermediates\pre-dexed\debug\picasso-2.3.4-a1a69a2c478334ebd8784eaac6137bdd647a1345.jar" />
+    </item>
+    <item
+        jar="C:\Users\Stationary\Desktop\20150114\MyWishlist\app\build\intermediates\exploded-aar\com.android.support\support-v13\20.0.0\libs\internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="27bbd3982cdfe4468a9bf99c8c773734a9049e33">
+        <dex dex="C:\Users\Stationary\Desktop\20150114\MyWishlist\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-6b2a829f34cc98709cc9b2d0c70294f110650812.jar" />
+    </item>
+    <item
+        jar="C:\Program Files (x86)\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="C:\Users\Stationary\Desktop\20150114\MyWishlist\app\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-8a24023954e30a3c04022e1d8fb9aaad3cc3882a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Stationary\Desktop\20150114\MyWishlist\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\libs\internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="C:\Users\Stationary\Desktop\20150114\MyWishlist\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-7d8c0d794974c88e6abc8e8ba78206976864570e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Stationary\Desktop\20150114\MyWishlist\app\libs\Parse-1.7.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="403b8fa0a90f1ff714ad1f40382e7a448ed4f25b">
+        <dex dex="C:\Users\Stationary\Desktop\20150114\MyWishlist\app\build\intermediates\pre-dexed\debug\Parse-1.7.0-b028f716a772f50d6e774a6bbffbc43200588a02.jar" />
+    </item>
+
+</items>

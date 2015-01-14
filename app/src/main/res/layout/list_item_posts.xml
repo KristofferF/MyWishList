@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@android:color/transparent"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/inbox_vertical_margin"
+        android:layout_marginLeft="@dimen/inbox_horizontal_margin"
+        android:layout_marginRight="@dimen/inbox_horizontal_margin"
+        android:background="@color/wish_list_blue"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/senderLabel"
+            android:textColor="@android:color/white"
+            android:layout_centerVertical="true"
+            android:paddingTop="@dimen/list_vertical_padding"
+            android:paddingBottom="@dimen/list_vertical_padding"/>
+
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>

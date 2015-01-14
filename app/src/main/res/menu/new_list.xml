@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="se.kfreiholtz.mywishlist.userinterfaces.NewListActivity" >
+
+    <item android:id="@+id/action_remove_list"
+        android:title="@string/remove_new_list"
+        android:icon="@drawable/ic_action_discard"
+        android:orderInCategory="100"
+        android:showAsAction="always"/>
+
+    <item android:id="@+id/action_add_list"
+        android:title="@string/add_new_list"
+        android:icon="@drawable/ic_action_save"
+        android:orderInCategory="100"
+        android:showAsAction="always"/>
+</menu>

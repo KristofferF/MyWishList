@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="list_types">
+        <item>Födelsedag</item>
+        <item>Julklappar</item>
+        <item>Bröllop</item>
+        <item>Övrigt</item>
+    </string-array>
+
+    <string-array name="camera_choices">
+        <item>Ta ett kort</item>
+        <item>Välj från galleriet</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Min Önskelista</string>
+    <string name="title_section1">Listor</string>
+    <string name="title_section2">Mina Listor</string>
+    <string name="title_section3">Vänner</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="username_hint">Användarnamn</string>
+    <string name="password_hint">Lösenord</string>
+    <string name="login_button_label">Logga in</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="email_hint">Mail-adress</string>
+    <string name="sign_up_button_label">Registrera</string>
+    <string name="sign_up_error_message">Fyll i användarnamn, lösenord samt mailadress!</string>
+    <string name="sign_up_error_title">Oj här blev det något fel!</string>
+    <string name="login_error_message">Fyll i användarnamn och lösenord!</string>
+    <string name="login_error_title">Oj här blev det något fel!</string>
+    <string name="menu_logout_label">Logga ut</string>
+    <string name="empty_inbox_label">Inga nya listor!</string>
+    <string name="empty_friends_label">Lägg till vänner för att börja dela dina listor!</string>
+    <string name="empty_my_lists_label">Skapa en lista för att börja!</string>
+    <string name="menu_edit_friends_label">Lägg till vänner</string>
+    <string name="title_activity_edit_friends">Lägg till vänner</string>
+    <string name="error_title">Tyvärr gick något fel</string>
+    <string name="menu_new_list_label">New list</string>
+    <string name="title_activity_new_list">NewListActivity</string>
+    <string name="list_type_spinner_label">Händelse</string>
+    <string name="event_name_text">Händelsens namn</string>
+    <string name="hint_event_name">Händelsens namn</string>
+    <string name="no_account_text">Har du inget konto?</string>
+    <string name="register_now">Har du inget konto? Registrera dig nu</string>
+    <string name="new_item_button">Lägg till önskan</string>
+    <string name="no_item_label">Lägg till önskningar!</string>
+    <string name="title_activity_new_post">NewPostActivity</string>
+    <string name="add_picture_post">Lägg till bild</string>
+    <string name="post_name_hint">Vad önskar du dig?</string>
+    <string name="post_location_hint">Vart kan man köpa den?</string>
+    <string name="add_new_post">Lägg till post</string>
+    <string name="remove_new_post">Ta bort post</string>
+    <string name="add_new_list">Spara lista</string>
+    <string name="remove_new_list">Ta bort lista</string>
+    <string name="title_activity_recipients">RecipientsActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="empty_recipients_list_message">Lägg till vänner för att dela din lista</string>
+    <string name="menu_send_label">Send</string>
+    <string name="post_extra_hint">Övrig info</string>
+    <string name="title_activity_view_list">ViewListActivity</string>
+    <string name="title_activity_view_post">ViewPostActivity</string>
+    <string name="error_external_storage">Det uppstod ett problem vid lagring</string>
+    <string name="gift_bought">Present köpt</string>
+    <string name="save_bought_post">Bought post</string>
+    <string name="content_desc_background">Wishlist Background Image</string>
+    <string name="cancel_button_label">Avbryt</string>
+    <string name="content_desc_button_divider">Button Divider</string>
+    <string name="content_desc_view_post_image">View Post Image</string>
+    <string name="content_desc_new_post_image">New Post Image</string>
+    <string name="push_list">Du har fått en ny lista från %s!</string>
+    <string name="push_list_edit">Lista från %s har blivit uppdaterad!</string>
+    <string name="new_wish_created">Ny önskan skapad</string>
+    <string name="wish_edited">Önskan redigerad</string>
+    <string name="wish_deleted">Önskan raderad</string>
+    <string name="enter_name_for_list">Skriv in ett namn på listan</string>
+    <string name="list_saved">Lista sparad</string>
+    <string name="enter_post_name">Skriv minst in ett namn på presenten</string>
+    <string name="no_camera_image">Du har ingen kamera. Välj en bild istället!</string>
+
+
+</resources>

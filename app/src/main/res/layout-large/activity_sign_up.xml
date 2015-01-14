@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="se.kfreiholtz.mywishlist.userinterfaces.SignUpActivity"
+    style="@style/Background">
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/Title"
+        android:layout_marginTop="150dp"/>
+
+    <LinearLayout
+        android:id="@+id/editTextLayout"
+        style="@style/FieldContainer"
+        android:layout_width="400dp"
+        android:layout_centerHorizontal="true">
+
+    <EditText
+        android:id="@+id/usernameField"
+        android:hint="@string/username_hint"
+        style="@style/EditText"/>
+    <requestFocus />
+
+    <EditText
+        android:id="@+id/passwordField"
+        android:inputType="textPassword"
+        android:hint="@string/password_hint"
+        style="@style/EditText"/>
+
+    <EditText
+        android:id="@+id/emailField"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email_hint"
+        style="@style/EditText"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/buttonDivider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextLayout"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/content_desc_button_divider"
+        android:src="@drawable/button_divider"/>
+
+    <Button
+        android:id="@+id/signUpButton"
+        android:text="@string/sign_up_button_label"
+        android:layout_alignLeft="@id/editTextLayout"
+        android:layout_toLeftOf="@+id/buttonDivider"
+        style="@style/SignUpButton" />
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:text="@string/cancel_button_label"
+        android:layout_alignRight="@id/editTextLayout"
+        android:layout_toRightOf="@+id/buttonDivider"
+        style="@style/SignUpButton" />
+
+</RelativeLayout>

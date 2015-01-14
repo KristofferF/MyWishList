@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="se.kfreiholtz.mywishlist.userinterfaces.NewPostActivity" >
+
+    <item android:id="@+id/action_remove_post"
+        android:title="@string/remove_new_post"
+        android:icon="@drawable/ic_action_discard"
+        android:orderInCategory="100"
+        android:showAsAction="always" />
+
+    <item android:id="@+id/action_add_post"
+        android:title="@string/add_new_post"
+        android:icon="@drawable/ic_action_save"
+        android:orderInCategory="100"
+        android:showAsAction="always" />
+
+</menu>

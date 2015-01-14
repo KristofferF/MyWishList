@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="se.kfreiholtz.mywishlist.userinterfaces.ViewPostActivity" >
+
+    <item android:id="@+id/action_save_bought_post"
+        android:title="@string/save_bought_post"
+        android:icon="@drawable/ic_action_save"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:visible="false"/>
+</menu>
