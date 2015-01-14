@@ -10,3 +10,5 @@ App till android. Dela önskelistor med dina vänner och familj. De kan sedan bo
 Den är inte publicerad på Google play än. Men den skall upp när den är klar. Just nu använder den enbart backenden för att hämta och spara data. Skall uppdateras för att spara på telefonen om man inte har tillgång till nätet och för att inte skicka data i onödan. Sökfunktion för vänner är på väg. Just nu får man upp en lista med alla registrerade användare vilket endast är några få inlagda av mig i testsyfte. Designen skall uppgraderas innan publicering.
 
 Appen är skapad i Android Studio med hjälp av parse som backend. Programmeringsspråket är Java
+
+[APK fil för appen](http://kristofferf.node365.se/app-release.apk)
